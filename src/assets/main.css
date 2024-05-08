@@ -1,0 +1,45 @@
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+  border: 2px solid rgb(109, 109, 240);
+  border-radius: 4px;
+  padding: .5em 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: rgb(109, 109, 240);
+  color: #fff;
+}
+
+button:hover{
+  border-color: rgb(75, 75, 240);
+  background-color: rgb(75, 75, 240);
+  color: #fff;
+}
+
+input{
+  font-size: 16px;
+  background-color: #fff;
+  border-radius: 5rem;
+  border-color: transparent;
+  box-shadow: 0 0 1px 1px #ddd;
+  padding: .5em 1em;
+  min-width: 200px;
+}
+
+input:hover{
+  outline: 1px solid rgba(70, 70, 255, 0.425);
+}
+input:focus-visible{
+  outline: 1px solid rgb(70, 70, 255);
+}
+
+input::placeholder {
+  font-style: italic;
+}
